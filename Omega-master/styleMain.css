@@ -1,0 +1,57 @@
+* {
+    font-family: "Roboto", "Meiryo" !important;
+}
+html,
+body {
+    background-color: #eff2f0;
+    background-image: url("https://www.transparenttextures.com/patterns/pineapple-cut.png");
+    height: 100% !important;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    overflow: auto;
+    -webkit-text-size-adjust:none;
+    position: absolute;
+}
+#container {
+    background-color: rgba(235,235,235,.6);
+    width: 90%;
+    height: 90%;
+    position: relative;
+    top: 20px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    margin: auto;
+    display: flex;
+    padding-top: 52px;
+}
+.buttons {
+    background-color: Transparent;
+    border: none;
+    overflow: hidden;
+    outline: none;
+    cursor: pointer;
+}
+.buttons:hover{
+    filter: blur(1px);
+    -webkit-transform: translateZ(1px) scale(1.05, 1.05);
+    overflow: hidden;
+    transition: all .5s;
+    -webkit-backface-visibility: hidden;
+    color: #732c7b;
+}
+
+.buttons:active{
+    color: #421c52;
+}
+
+.link1{
+    font-size: 14px;
+    background: none;
+    color: inherit;
+    border: none;
+    margin: 0;
+    padding: 0;
+    background: #deb9b4;
+}

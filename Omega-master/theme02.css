@@ -1,0 +1,39 @@
+.main {
+	background: #f41d6a;
+}
+#picture1:before {
+	background: rgba(174,49,94,.5);
+}
+#picture1 {
+	background-image: url("background/2015/1.jpg") !important;
+}
+#picture2:before {
+	background: rgba(59,77,117,.5);
+}
+#picture2 {
+	background-image: url("background/2015/2.jpg") !important;
+}
+#picture3:before {
+	background: rgba(202,107,89,.5);
+}
+#picture3 {
+	background-image: url("background/2015/3.jpg") !important;
+}
+#picture4:before {
+	background: rgba(57,54,73,.5);
+}
+#picture4 {
+	background-image: url("background/2015/4.jpg") !important;
+}
+#picture5:before {
+	background: rgba(183,12,53,.5);
+}
+#picture5 {
+	background-image: url("background/2015/5.jpg") !important;
+}
+#picture6:before {
+	background: rgba(253,155,21,.5);
+}
+#picture6 {
+	background-image: url("background/2015/6.jpg") !important;
+}
