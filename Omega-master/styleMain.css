@@ -24,19 +24,39 @@ body {
     left: 0px;
     margin: auto;
     display: flex;
-    padding-top: 52px;
+    padding-top: 20px;
+    padding-left: 20px;
 }
-.buttons {
+.buttonLine1 {
     background-color: Transparent;
     border: none;
     overflow: hidden;
     outline: none;
     cursor: pointer;
+    position: relative;
+    width: 200px;
+    height: 75px;
+    font-size: 300%;
+    display: inline-block;
+    right: 500px;
 }
-.buttons:hover{
+
+.buttonLine2 {
+    background-color: Transparent;
+    border: none;
+    overflow: hidden;
+    outline: none;
+    cursor: pointer;
+    position: relative;
+    width: 200px;
+    height: 75px;
+    font-size: 300%;
+    top: 200px;
+}
+
+.buttonLine1:hover{
     filter: blur(1px);
     -webkit-transform: translateZ(1px) scale(1.05, 1.05);
-    overflow: hidden;
     transition: all .5s;
     -webkit-backface-visibility: hidden;
     color: #732c7b;
@@ -44,14 +64,4 @@ body {
 
 .buttons:active{
     color: #421c52;
-}
-
-.link1{
-    font-size: 14px;
-    background: none;
-    color: inherit;
-    border: none;
-    margin: 0;
-    padding: 0;
-    background: #deb9b4;
 }
